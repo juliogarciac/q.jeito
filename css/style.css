@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#logo{
+    width: 80px;
+    float: left;
+
+}
+#links{
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    border: 4px double aquamarine;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;   
+}
+
+#links li{
+    display: inline;
+    padding: 20px;
+    float: right;
+}
+
+#links li a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+/* NOTA: Podemos observar que no caso em questão, como temos uma LISTA,
+ que DENTRO possui ITENS e que nesses itens possui LINKS, devemos separar o CSS
+ conforme fizemos ali, utilizamos uma id #links e para alterar os dados que 
+ estavam ali dentro, utilizamos a mesma id, seguida de seu complemento
+ */
+ /* Podiamos tambem ter utilizado DIV's no HTML e trazido cada DIV para cá,
+ porém daria um pouco mais de trabalho*/
+
+ #links li a:hover{
+    background-color: aquamarine;
+    color: black;
+ }
+
+ /* A opção hover, que foi adicionada acima é utilizada para alterar a cor
+ do elemento, quando passamos o mouse por cima*/
+
+#banner{
+    background-size: cover;
+    padding: 100px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
+#about{
+    text-align: center;
+    font-size: 28px;
+    margin: 30px;
+}
+
+#conteudo1{
+    text-align: center;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;   
+    margin-bottom: 100px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body{
+   background-color: #020202;
+}
+
+#colection{
+    flex: 1 1 200px;
+    margin: 10px;
+    text-align: center;
+ 
+}
+
+#roupas{
+    text-align: center;
+    font-size: 28px;
+    margin: 30px;
+}
+
+#foto1{
+    border: 1px solid aquamarine;
+    display: inline-flex;
+}
+
+#foto2{
+    border: 1px solid aquamarine;
+    display: inline-flex;
+}
+#foto3{
+    border: 1px solid aquamarine;
+    display: inline-flex;
+}
+
+#foto4{
+    border: 1px solid aquamarine;
+    display: inline-flex;
+}
+
+#foto5{
+    border: 1px solid aquamarine;
+    display: inline-flex;
+}
+#foto6{
+    border: 1px solid aquamarine;
+    display: inline-flex;
+}
+
+footer{
+    margin-top: 300px;
+    text-align: center;
+    
+}
+
+#texto1{
+    color: aliceblue;
+}
